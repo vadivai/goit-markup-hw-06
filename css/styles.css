@@ -638,6 +638,9 @@ body {
   background: var(--accent-color);
   border-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
