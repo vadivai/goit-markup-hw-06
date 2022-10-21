@@ -615,6 +615,7 @@ body {
   background-color: transparent;
   color: var(--primary-white-color);
   transition: border-color var(--transition-animation);
+  outline: transparent; /*убирает черную линию внутреннюю */
 }
 .footer-subscription-input:hover {
   border-color: var(--accent-color);
