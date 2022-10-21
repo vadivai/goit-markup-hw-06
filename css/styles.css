@@ -877,8 +877,7 @@ body {
   border-radius: 4px;
   resize: none;
   transition: border-color var(--transition-animation);
-  margin-bottom: 20px;
-  outline: none;
+  outline: transparent;
 }
 
 /* .order-form-comment:hover, */
@@ -892,14 +891,7 @@ body {
   line-height: 1.17px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
-
-.order-form-policy {
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  margin-top: 12px;
 }
 
 .checkbox-icon-wrap {
@@ -941,6 +933,7 @@ body {
 }
 
 .order-form-policy {
+  margin-top: 10px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
